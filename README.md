@@ -1,6 +1,6 @@
-bash-scripts
+# bash/python-scripts for automated tasks. 
 ============
 
-# A repo to house all shell scritps i create. 
-# If anyone finds them usefull, feel free to use them as well
+ A repo to house all shell scritps I create. 
+
 
