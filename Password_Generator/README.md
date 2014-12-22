@@ -4,7 +4,7 @@
 ### Dependencies 
  * Python (Run ```which python```) to see if python is installed. 
 
-The script be default will generate a 20 character password. If you would like to make it shorter or even longer, just change the ```length``` variable. 
+The script by default will generate a 20 character password. If you would like to make it shorter or even longer, just change the ```length``` variable. 
 
 
 ### How to run the script
