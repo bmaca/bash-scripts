@@ -1,3 +1,4 @@
+#TODO: Storing the backups on another server, rather than the same server. 
 # Require a source and destination directory to be passed to the script:
 SOURCEDIR=$1
 DESTDIR=$2
