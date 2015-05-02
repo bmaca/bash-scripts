@@ -16,7 +16,7 @@ read -p "Enter your destination directory: " DESTDIR
 FILENAME=backup-$(date +"%m-%d-%Y").tar.gz
 tar -czf - "$SOURCEDIR"  | ssh -i "$KEY" "$USER"@"$IP" "cat > "$DESTDIR"/"$FILENAME""
 
-if [$? -eq 0]; then
+if [ $? -eq 0 ]; then
     echo "Backup was successfully created!"
 else
     echo "Backup was unsuccessful. Exiting"
