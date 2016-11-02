@@ -1,5 +1,11 @@
 ## Examples For Encrypt Script
 
+##### Install Dependencies
+
+```
+$ pip install -r requirments.txt
+
+```
 The two calls:
   * The first command will encrypt the file and will create a new file with ```.encrypted``` extension.
 
